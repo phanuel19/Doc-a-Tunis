@@ -1,0 +1,23 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkTable{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.link:active{
+    color: red;
+}

@@ -1,0 +1,33 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .message {
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .planningTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .planningTable th,
+  .planningTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .planningTable th {
+    background-color: #f2f2f2;
+  }
+  

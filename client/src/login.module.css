@@ -1,0 +1,64 @@
+/* login.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: center; /* Centre le contenu verticalement */
+    height: 100vh; /* Prend toute la hauteur de la vue */
+    background-color: #f4f4f4; /* Couleur de fond douce */
+  }
+  
+  h1 {
+    color: #333; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace en bas du titre */
+  }
+  
+  form {
+    background: #fff; /* Fond blanc pour le formulaire */
+    padding: 20px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px; /* Largeur fixe pour le formulaire */
+  }
+  
+  .formGroup {
+    margin-bottom: 15px; /* Espace entre les groupes de champs */
+  }
+  
+  label {
+    display: block; /* Afficher chaque label sur une nouvelle ligne */
+    margin-bottom: 5px; /* Espace entre le label et l'input */
+    font-weight: bold; /* Mettre le texte en gras */
+  }
+  
+  input {
+    width: 100%; /* Remplir toute la largeur du conteneur */
+    padding: 10px; /* Espace à l'intérieur des champs */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure padding et border dans la largeur totale */
+  }
+  
+  button {
+    width: 100%; /* Bouton remplit toute la largeur */
+    padding: 10px;
+    background-color: #5cb85c; /* Couleur verte */
+    color: white; /* Couleur du texte en blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    font-size: 16px; /* Taille de police */
+    margin-top: 10px; /* Espace en haut du bouton */
+  }
+  
+  button:hover {
+    background-color: #4cae4c; /* Couleur légèrement plus foncée au survol */
+  }
+  
+  .message {
+    color: red; /* Couleur rouge pour les messages d'erreur */
+    text-align: center; /* Centre le message */
+    margin-top: 10px; /* Espace au-dessus du message */
+  }
+  
